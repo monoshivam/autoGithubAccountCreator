@@ -1,0 +1,5 @@
+selenium
+requests
+undetected-geckodriver
+pynput
+screeninfo
