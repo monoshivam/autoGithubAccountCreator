@@ -15,6 +15,7 @@ import threading
 import os
 from pynput import mouse as ms
 
+#Login for ending the script with middle mouse button click
 def on_click(x, y, button, pressed):
     global stop_flag
     if pressed and button == ms.Button.middle:
