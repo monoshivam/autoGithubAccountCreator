@@ -52,7 +52,10 @@ pip install -r requirements.txt
 ### Basic Usage
 
 ```bash
+source venv/bin/activate
 python main.py
+        or
+python3 main.py
 ```
 
 The script will prompt you for the number of accounts to create (or unlimited).
